@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #F8EDD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.main-box {
+    background: #ffffff;
+    padding: 10px;
+    height: 420px;
+    width: 700px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+h2 span {
+    color: #f4a340;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Inputs */
+input {
+    height: 18px;
+    width: 180px; /* fixed size instead of % */
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px; /* spacing fix */
+    border-radius: 15px;
+    border: 1px solid #aaa;
+}
+
+/* Button */
+button {
+    display: block;
+    height: 30px;
+    width: 195px;
+    margin: 20px auto; /* centers button properly */
+    margin-top: 5px;
+    padding: 5px 20px;
+    background: #f4a340;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 0px black;
+}
+
+button:hover {
+    background: #e6952d;
+}
+
+/* Result Box */
+.result-box {
+    height: 70px;
+    width: 420px;
+    margin: 20px auto;
+    margin-top: 20px;
+    background: #f6e6c9;
+    border-radius: 25px;
+    padding: 20px;
+    border: 2px solid #444;
+    box-shadow: 3px 3px 0px black;
+}
+
+/* Text styles */
+.small {
+    margin-top: -5px;
+    font-size: 15px;
+    color: #444;
+}
+
+.age {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Error */
+.error {
+    color: red;
+    margin-top: 10px;
+}
